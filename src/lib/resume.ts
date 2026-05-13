@@ -14,7 +14,8 @@ export const resume = {
   },
   skills: {
     languages: ["JavaScript", "TypeScript", "HTML5", "CSS3", "SCSS"],
-    frameworks: ["React.js", "Next.js", "Redux Toolkit", "React Router", "Tailwind CSS"],
+    frameworks: ["React.js", "Next.js", "React Native", "Redux Toolkit", "React Router", "Tailwind CSS"],
+    backend: ["Node.js", "Express.js"],
     tools: ["Git", "VS Code", "NPM", "Vite", "REST APIs", "Axios"],
     web: [
       "Responsive Design",

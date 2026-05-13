@@ -18,7 +18,8 @@ interface SkillBarProps {
 
 const skillLevels: Record<string, number> = {
   JavaScript: 95, TypeScript: 90, "HTML5": 98, "CSS3": 95, SCSS: 88,
-  "React.js": 95, "Next.js": 90, "Redux Toolkit": 82, "React Router": 85, "Tailwind CSS": 92,
+  "React.js": 95, "Next.js": 90, "React Native": 75, "Redux Toolkit": 82, "React Router": 85, "Tailwind CSS": 92,
+  "Node.js": 75, "Express.js": 75,
   Git: 88, "VS Code": 95, NPM: 85, Vite: 82, "REST APIs": 90, Axios: 85,
   "Responsive Design": 95, "Performance Optimization": 88, Web3: 75,
   "Blockchain Integration": 72, "Cross-browser Compatibility": 90,
@@ -103,6 +104,13 @@ const groups = [
     color: "linear-gradient(90deg,#f472b6,#e879f9)",
     glow: "#f472b6",
     items: resume.skills.ai,
+  },
+  {
+    title: "Backend",
+    icon: "🗄️",
+    color: "linear-gradient(90deg,#10b981,#34d399)",
+    glow: "#10b981",
+    items: resume.skills.backend,
   },
   {
     title: "Methodologies",
